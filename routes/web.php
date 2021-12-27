@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index')->name("home");
+
+Route::get('/about_2020', 'About2020Controller@index')->name("about_2020");
+
+Route::get('/about_2021', 'About2021Controller@index')->name("about_2021");
