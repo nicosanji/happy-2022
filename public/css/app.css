@@ -1,19 +1,186 @@
 #homepage {
   background-color: #530b0b;
   height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-family: "Inspiration", cursive;
 }
 
 #homepage h1 {
-  font-size: 10rem;
-  font-weight: 500;
-  color: white;
+  color: #bdba1a;
   text-shadow: 0px 0.25rem 0.25rem black;
+  font-size: 5rem;
   cursor: pointer;
-  transition: all 1s;
 }
 
-#homepage h1:hover {
-  color: black;
-  text-shadow: 0px 0.25rem 0.25rem white;
+#homepage a {
+  text-decoration: none;
+  color: #530b0b;
+  background-color: #bdba1a;
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+  box-shadow: 0px 0.25rem 0.25rem black;
+  transition: all 0.5s;
+}
+
+#homepage a:hover {
+  color: #bdba1a;
+  background-color: #530b0b;
+  transform: rotate(360deg);
+  box-shadow: 0px 0.25rem 0.25rem #bdba1a;
+}
+
+#menu {
+  background-color: #bdba1a;
+  color: #530b0b;
+  font-family: "Oswald", sans-serif;
+  font-family: "Inspiration", cursive;
+  font-size: 2rem;
+}
+
+#menu ul {
+  text-align: center;
+  list-style: none;
+}
+
+#menu ul li {
+  cursor: pointer;
+}
+
+#menu ul li:hover img {
+  display: block;
+  height: 10rem;
+  transition: all 0.5s;
+  box-shadow: 0px 0.25rem 0.25rem #530b0b;
+}
+
+#menu ul li img {
+  width: 10rem;
+  height: 0rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 2s;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #bdba1a;
+  background-color: #530b0b;
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+  box-shadow: 0px 0.25rem 0.25rem black;
+  transition: all 0.5s;
+}
+
+#menu a:hover {
+  color: #530b0b;
+  background-color: #bdba1a;
+  transform: rotate(360deg);
+  box-shadow: 0px 0.25rem 0.25rem #530b0b;
+}
+
+#drinks {
+  background-color: #530b0b;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-family: "Inspiration", cursive;
+  font-size: 2rem;
+}
+
+#drinks a {
+  text-decoration: none;
+  color: #530b0b;
+  background-color: #bdba1a;
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+  box-shadow: 0px 0.25rem 0.25rem black;
+  transition: all 0.5s;
+}
+
+#drinks a:hover {
+  color: #bdba1a;
+  background-color: #530b0b;
+  transform: rotate(360deg);
+  box-shadow: 0px 0.25rem 0.25rem #bdba1a;
+}
+
+#drinks .col {
+  background-color: #bdba1a;
+  color: #530b0b;
+  height: 70vh;
+  box-shadow: 0px 0.5rem 0.25rem black;
+  cursor: pointer;
+}
+
+#drinks .col ul {
+  list-style: none;
+}
+
+#drinks .col i {
+  font-size: 15rem;
+  text-shadow: 0px 0.25rem 0.25rem black;
+}
+
+#drinks .col .overlay {
+  width: 90%;
+  background-color: #530b0b;
+  color: #bdba1a;
+  text-shadow: 0px 0.25rem 0.25rem black;
+  box-shadow: 0px 0.25rem 0.25rem black;
+}
+
+#drinks .col:hover .overlay {
+  display: block !important;
+}
+
+#contact {
+  background-color: #bdba1a;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-family: "Inspiration", cursive;
+  font-size: 2rem;
+  color: #530b0b;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #bdba1a;
+  background-color: #530b0b;
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+  box-shadow: 0px 0.25rem 0.25rem black;
+  transition: all 0.5s;
+}
+
+#contact a:hover {
+  color: #530b0b;
+  background-color: #bdba1a;
+  transform: rotate(360deg);
+  box-shadow: 0px 0.25rem 0.25rem #530b0b;
+}
+
+#contact h1 {
+  text-shadow: 0px 0.25rem 0.25rem black;
+}
+
+#contact .col {
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+#contact .col:hover {
+  transform: scale(1.25);
+}
+
+#contact .col p {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#contact .col i {
+  font-size: 3rem;
 }
 

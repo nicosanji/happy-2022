@@ -1,30 +1,17 @@
-@php
-$home_links = [
-    [
-        'text' => 'About 2021',
-        'link' => 'about_2021',
-    ],
-    [
-        'text' => 'About 2020',
-        'link' => 'about_2020',
-    ],
-];
-@endphp
-
-
 @extends("layouts.default")
 
-@section('page_title', 'Homepage Happy-2022')
+@section('page_title', 'HOME Capodanno')
 
 @section('content')
-    <div id="homepage" class="position-relative">
-        <h1 class="position-absolute top-50 start-50 translate-middle">2022</h1>
-        <ul>
-            @foreach ($home_links as $element)
-                <li>
-                    <a href="{{ $element['link'] }}">{{ $element['text'] }}</a>
-                </li>
-            @endforeach
-        </ul>
+    <div id="homepage" class="d-flex justify-content-center align-items-center">
+        <div class="container">
+            <h1 class="text-center pb-4 mb-0">Menù di Capodanno</h1>
+            <div class="d-flex">
+                <a class="rounded-circle d-flex justify-content-center align-items-center m-auto" href="menu"><i
+                        class="fas fa-utensils"></i></a>
+                <a class="rounded-circle d-flex justify-content-center align-items-center m-auto" href="contact"><i
+                        class="fas fa-phone"></i></a>
+            </div>
+        </div>
     </div>
 @endsection
